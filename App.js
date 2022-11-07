@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { SafeAreaView, View, Text, TextInput, FlatList, Pressable, StyleSheet } from "react-native";
 import { Realm, createRealmContext } from '@realm/react'
 class Task extends Realm.Object {
+  // Commented part in case for typescript!!
   // _id!: Realm.BSON.ObjectId;
   // description!: string;
   // isComplete!: boolean;
