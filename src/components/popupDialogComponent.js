@@ -40,6 +40,7 @@ export default class PopupDialogComponent extends Component {
                 dialogTitle={<DialogTitle title={dialogTitle} />}
                 width={0.7} height={180}
                 ref={"popupDialog"}
+                visible = {true}
             >
                 <View style={styles.container}>
                     <TextInput style={styles.textInput} placeholder="Enter TodoList name" autoCorrect={false}
